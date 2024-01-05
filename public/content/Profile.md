@@ -1,19 +1,24 @@
 ## Site Name
 - Portable Portfolio
 
+## Profile Image
+- ![pf](../assets/pf.png) 
+ 
+## Pic
+- ![pic](../assets/pic.png)
+
 ## Header
-- Hi, my name is Eldora. 
-- I'm a software engineer.
-- Short Description Here.
+- Hi, my name is Bo Pang 
+- Aspiring Software Engineer
+ 
 
 ## About
-Write your "About" section here.
+I am a Bachelor's student at the University of Michigan majoring in Computer Science and Communication and Media. I have completed relevant courses in Web Security, Web Systems, Database Management, Software Engineering, Computer Vision, and Information Retrieval.
 
 ## Contact
-Write your "Contact" section here.
-- LinkedIn: https://linkedin.com/in/username
-- GitHub: https://github.com/username
-- Email: username@gmail.com
+- LinkedIn: https://www.linkedin.com/in/cecilia-bo-pang-20200b233/
+- GitHub: https://github.com/bopang59
+- Email: bopang@umich.edu
 
-## Logo
-- EB
+ 
+ 

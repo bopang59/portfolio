@@ -56,7 +56,7 @@ Write your "Contact" section here.
 - GitHub: https://github.com/username
 - Email: username@gmail.com
 
-## Logo
+## Signature
 - EB
 ```
 
@@ -64,7 +64,7 @@ Write your "Contact" section here.
 
 ```
 Category 1
-Category 2
+Research
 Category 3
 ```
 

@@ -1,26 +1,28 @@
-## Project A
-Description
+## Thread Library
+Created a thread manager to administer the creation, lifetime, and execution of thread bodies on a multi-core system
 - ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 1
+- Tags: Internship
 - Badges:
   - Badge [blue]
 - Buttons:
   - Link [https://example.com]
 
-## Project B
-Description
+## Instagram Clone
+An interactive web using server-side, and client-side dynamic pages: creating, updating, and deleting users, posts, likes.
 - ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 2
+- Tags: Research
 - Badges:
   - Badge [blue]
 - Buttons:
   - Link [https://example.com]
 
-## Project C
-Description
+## Map Reduce Server
+Implemented a parallelized and distributed system to execute user-submitted Map Reduce jobs. Employed TCP/UDP sockets for master-worker communication, Utilized threads for fault tolerance, work assignment.Utilized cloud services such as Amazon EC2 for efficient data storage and processing
 - ![600x200](https://via.placeholder.com/600x200)
-- Tags: Category 3
+- Tags: Research
 - Badges:
   - Badge [blue]
 - Buttons:
   - Link [https://example.com]
+
+ 

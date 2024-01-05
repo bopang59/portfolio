@@ -8,6 +8,7 @@ import {
   Icon,
   useColorModeValue,
   createIcon,
+  Image,
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
 
@@ -50,6 +51,25 @@ export default function Header({ color }) {
             <Text as={"span"} color={`${color}.400`}>
               {profile.headerRole}
             </Text>
+
+
+
+            {profile.pic && (
+          <Image
+          src={profile.pic}
+          alt="Signature"
+          display="block"
+          marginLeft="auto"
+          marginRight="auto"
+          marginTop="20px"
+          width="156.7px"      // Updated width
+          height="156.7px"     // Updated height
+          borderRadius="50%"   // Keeps the image rounded
+        />
+        )}
+
+
+
           </Heading>
           <Text
             color={"gray.500"}
@@ -64,6 +84,7 @@ export default function Header({ color }) {
             alignSelf={"center"}
             position={"relative"}
           >
+
             <Button
               colorScheme={color}
               bg={`${color}.400`}
@@ -76,34 +97,8 @@ export default function Header({ color }) {
             >
               Let's connect!
             </Button>
-            <Button
-              variant={"link"}
-              colorScheme={"blue"}
-              size={"sm"}
-              onClick={scrollToContact}
-            >
-              Contact Me
-            </Button>
-            <Box>
-              <Icon
-                as={Arrow}
-                color={useColorModeValue("gray.800", "gray.300")}
-                w={71}
-                position={"absolute"}
-                right={-71}
-                top={"10px"}
-              />
-              <Text
-                fontSize={"lg"}
-                fontFamily={"Caveat"}
-                position={"absolute"}
-                right={"-85px"}
-                top={"-15px"}
-                transform={"rotate(10deg)"}
-              >
-                Click me!
-              </Text>
-            </Box>
+             
+           
           </Stack>
         </Stack>
       </Container>

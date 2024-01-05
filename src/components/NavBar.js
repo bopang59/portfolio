@@ -12,6 +12,7 @@ import {
   useMediaQuery,
   useDisclosure,
   HStack,
+  Image, 
   Link,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon, HamburgerIcon } from "@chakra-ui/icons";
@@ -86,6 +87,18 @@ export default function Nav({ color }) {
         justifyContent={"space-between"}
         w="100%"
       >
+{profile.profileImage && (
+          <Image
+          src={profile.profileImage}
+          alt="Signature"
+          display="block"
+          marginLeft="2%"
+          marginRight="19%"
+          marginTop="2px"
+          width="120px"  // Adjust margin as needed
+        />
+        )}
+
         <Link onClick={scrollToHero}>
           <HStack>
             {TbLetterComponents.map((Component, index) => (

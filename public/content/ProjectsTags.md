@@ -1,3 +1,3 @@
-Category 1
+Internship
 Category 2
 Category 3

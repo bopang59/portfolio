@@ -23,11 +23,25 @@ const parseProfile = (mdContent) => {
       const section = line.substr(3).trim();
 
       switch (section) {
+        case "Profile Image":
+          if (lines[i + 1].startsWith("- ![pf]")) {
+            profile.profileImage = lines[++i].split("(")[1].split(")")[0].trim();
+          }
+          break;
+        
+        case "Pic":
+          if (lines[i + 1].startsWith("- ![pic]")) {
+            profile.pic = lines[++i].split("(")[1].split(")")[0].trim();
+          }
+          break;
+        
         case "Header":
           profile.headerName = lines[++i].substr(2).trim();
           profile.headerRole = lines[++i].substr(2).trim();
           profile.headerDesc = lines[++i].substr(2).trim();
+          
           break;
+        
         case "About":
           profile.about = lines[++i].trim();
           break;
@@ -41,9 +55,8 @@ const parseProfile = (mdContent) => {
             }
           }
           break;
-        case "Logo":
-          profile.logo = lines[++i].substr(2).trim();
-          break;
+        
+
         default:
           // do nothing
           break;
@@ -66,6 +79,7 @@ const ProfileArray = () => {
     github: "",
     email: "",
     logo: "",
+    profileImage: "", // Added profile image to state
   });
 
   useEffect(() => {
@@ -85,6 +99,7 @@ const ProfileArray = () => {
   }, []);
 
   return profile;
+   
 };
 
 export default ProfileArray;
