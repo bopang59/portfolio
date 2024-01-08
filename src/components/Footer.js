@@ -18,7 +18,7 @@ export default function Footer() {
         py={4}
         align="center"
       >
-        <Text>© 2024 Bo Pang. All rights reserved</Text>
+        <Text>© 2023 Bo Pang. All rights reserved</Text>
       </Container>
     </Box>
   );

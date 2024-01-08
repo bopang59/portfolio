@@ -1,6 +1,6 @@
 ## TE Connectivity
 - *Software Engineer Intern* | May'23 - Present
-- ![te_connectivity_logo](../assets/te_connectivity_logo.jpeg)
+- ![te_connectivity_logo](/portfolio/assets/te_connectivity_logo.jpeg)
 - Tags: Internship
 - Badges:
   - Badge [blue]
@@ -16,7 +16,7 @@
 
 ## Michigan Electric Veicle Center
 - *Web Developer* | May'22 - Dec'23
-- ![university_of_michigan_electric_vehicle_center_logo](../assets/university_of_michigan_electric_vehicle_center_logo.jpeg)
+- ![university_of_michigan_electric_vehicle_center_logo](/portfolio/assets/university_of_michigan_electric_vehicle_center_logo.jpeg)
 - Tags: Internship
 - Badges:
   - Badge [blue]
@@ -26,7 +26,7 @@
 
 ## JD.com
 - *Tech Project Manager Intern* | May'21 - Aug'21
-- ![jd](../assets/jd.jpeg)
+- ![jd](/portfolio/assets/jd.jpeg)
 - Tags: Internship
 - Badges:
   - Badge [blue]
@@ -36,7 +36,7 @@
 
 ## TechLab at Mcity  
 - *Cohort Member* | Sept'22 - Dec'22
-- ![techlab](../assets/techlab.jpeg)
+- ![techlab](/portfolio/assets/techlab.jpeg)
 - Tags: Research
 - Badges:
   - Badge [blue]
@@ -46,7 +46,7 @@
 
 ## University of Michigan Transportation Research Institute
 - *Student Researcher* | May'22 - Aug'22
-- ![umtri](../assets/umtri.jpeg)
+- ![umtri](/portfolio/assets/umtri.jpeg)
 - Tags: Research
 - Badges:
   - Badge [blue]

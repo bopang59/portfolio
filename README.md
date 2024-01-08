@@ -64,8 +64,7 @@ Write your "Contact" section here.
 
 ```
 Category 1
-Research
-Category 3
+ 
 ```
 
 ### Experience.md

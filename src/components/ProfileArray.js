@@ -23,6 +23,7 @@ const parseProfile = (mdContent) => {
       const section = line.substr(3).trim();
 
       switch (section) {
+
         case "Profile Image":
           if (lines[i + 1].startsWith("- ![pf]")) {
             profile.profileImage = lines[++i].split("(")[1].split(")")[0].trim();
@@ -83,7 +84,7 @@ const ProfileArray = () => {
   });
 
   useEffect(() => {
-    fetch("/content/Profile.md")
+    fetch("/portfolio/content/Profile.md")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch markdown content");

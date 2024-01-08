@@ -2,10 +2,10 @@
 - Portable Portfolio
 
 ## Profile Image
-- ![pf](../assets/pf.png) 
+- ![pf](/portfolio/assets/pf.png) 
  
 ## Pic
-- ![pic](../assets/pic.png)
+- ![pic](/portfolio/assets/pic.png)
 
 ## Header
 - Hi, my name is Bo Pang 
