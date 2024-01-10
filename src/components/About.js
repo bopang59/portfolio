@@ -23,7 +23,7 @@ const milestones = [
   {
     id: 2,
     date: 'May 22, 2023',
-    title: 'Software Engineer Summer Intern | TE Connectivity',
+    title: 'Software Engineer Intern | TE Connectivity',
     description: `Back End & Database Dev: JavaScript, SQL, CICD`
   },
   {

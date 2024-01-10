@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import {
   Box,
   Heading,
@@ -9,22 +10,37 @@ import {
   useColorModeValue,
   createIcon,
   Image,
+  Modal, 
+  ModalOverlay, 
+  ModalContent, 
+  ModalHeader, 
+  ModalBody, 
+  ModalCloseButton,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
 } from "@chakra-ui/react";
 import ProfileArray from "./ProfileArray";
 
 export default function Header({ color }) {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   const profile = ProfileArray();
+
+  const openResumeModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeResumeModal = () => {
+    setIsModalOpen(false);
+  };
   const scrollToContact = () => {
     const contactSection = document.querySelector("#contact");
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
-  const linkedin = () => {
-    window.open(
-                `https://www.linkedin.com/in/cecilia-bo-pang-20200b233/`,
-                "_blank",
-                "noreferrer,noopener"
-              );
-  };
+  
+  const resumeImageUrl = '/portfolio/assets/resume.png'; 
   return (
     <>
       <Heading>
@@ -78,30 +94,41 @@ export default function Header({ color }) {
             {profile.headerDesc}
           </Text>
           <Stack
-            direction={"column"}
-            spacing={3}
-            align={"center"}
-            alignSelf={"center"}
-            position={"relative"}
-          >
-
-            <Button
-              colorScheme={color}
-              bg={`${color}.400`}
-              rounded={"full"}
-              px={6}
-              _hover={{
-                bg: `${color}.500`,
-              }}
-              onClick={linkedin}
-            >
-              Let's connect!
-            </Button>
-             
-           
-          </Stack>
+          direction={"column"}
+          spacing={3}
+          align={"center"}
+          alignSelf={"center"}
+          position={"relative"}
+        >
+          <Accordion allowToggle>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex='1' textAlign='left'>
+                    View My Resume
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <Image src={resumeImageUrl} alt="My Resume" />
+                {/* Include any other content for your resume here */}
+              </AccordionPanel>
+            </AccordionItem>
+          </Accordion>
+        </Stack>
         </Stack>
       </Container>
+      <Modal isOpen={isModalOpen} onClose={closeResumeModal} size="xl">
+        <ModalOverlay />
+        <ModalContent>
+          <ModalHeader>My Resume</ModalHeader>
+          <ModalCloseButton />
+          <ModalBody>
+            <Image src={resumeImageUrl} alt="My Resume" />
+          </ModalBody>
+        </ModalContent>
+      </Modal>
     </>
   );
 }

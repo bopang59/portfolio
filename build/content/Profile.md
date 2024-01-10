@@ -9,9 +9,8 @@
 
 ## Header
 - Hi, my name is Bo Pang 
-- Aspiring Software Engineer 
+- Aspiring Software Engineer
  
-
 ## About
 Bachelor's student at the University of Michigan majoring in Computer Science and Communication and Media. Completed courses in Web Security, Web Systems, Database Management, Software Engineering, Computer Vision, and Information Retrieval.
 

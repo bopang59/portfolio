@@ -79,14 +79,7 @@ export default function Projects({ color }) {
                         ))}
                       </HStack>
                       <HStack pt={4} spacing={2}>
-                        {project.badges.map((badge) => (
-                          <Badge
-                            key={badge.text}
-                            colorScheme={badge.colorScheme}
-                          >
-                            {badge.text}
-                          </Badge>
-                        ))}
+                         
                       </HStack>
                     </CardBody>
                   </Stack>
