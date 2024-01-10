@@ -20,7 +20,7 @@ export default function Header({ color }) {
   };
   const linkedin = () => {
     window.open(
-                `${profile.linkedin}`,
+                `https://www.linkedin.com/in/cecilia-bo-pang-20200b233/`,
                 "_blank",
                 "noreferrer,noopener"
               );
