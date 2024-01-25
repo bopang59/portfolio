@@ -5,9 +5,13 @@
 - Badges:
   - Badge [blue]
 - List Items:
-  -  Implement a IaaS-based Node.js backend for the FileSaver       application to retrieve and save real-time crimp JSON data over the OPC-UA protocol from the Crimp Monitor Machines (CQM)
+  -  Implement a IaaS-based Node.js backend for the FileSaver application to retrieve and save real-time crimp JSON data over the OPC-UA protocol from the Crimp Monitor Machines (CQM)
   -  Database: Develop a databaseManager class with SQLite database, accommodating a 50% growth in data volume
   -  Back End: Implement an automated script for database CRUD operations and accurate filtered result verification
+  -  Integrate existing interface into Manufacturing System (MES), streamlining data flow
+  -  Configure UAExpert to optimize server-client interactions, monitoring network performance
+  -  Implement conditional script to signal the client app at the initiation of data transmission, reducing data loss by 30%.
+  -  Design a data-saving mechanism for disk storage, following the Strategy Design Pattern, utilizing polymorphism, inheritance, and interfaces for an efficient design
   - Front End: Display 10+ data visualizations for GUI, using Angular, D3.js library to visualize real-time data
   - Testing: Evaluate over 300 testcases and performed regression, unit, system testing using Mocha test framework
   - App Development Life Cycle: Utilize Agile techniques such as backlog, sprints, and Scrum to track tasks

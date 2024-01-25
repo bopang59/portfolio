@@ -25,4 +25,14 @@ Implemented a parallelized and distributed system to execute user-submitted Map 
 - Buttons:
   - Threading, Python, TCP/UDP [https://example.com]
 
+
+## Full Stack Google Search Engine
+Created a segmented inverted index of web pages using a pipeline of MapReduce programs. For the index server, built a REST API app that returns search results in JSON format. For the search server, built a user interface that returns search results just like Google or Bing.
+- ![600x200](/portfolio/assets/g.png)
+- Tags: Research
+- Badges:
+  - Badge [blue]
+- Buttons:
+  - Python, Flask [https://example.com]
+
  
